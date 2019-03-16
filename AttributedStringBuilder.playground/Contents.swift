@@ -77,12 +77,3 @@ let attributedResult = AttributedStringBuilder(string: source)
 
 let label = UILabel(frame: CGRect(x: 0, y: 0, width: 300, height: 30))
 label.attributedText = attributedResult
-
-let s1 = "😀, 😄"
-let s2 = "H, H"
-
-let ns1 = s1 as NSString
-let ns2 = s2 as NSString
-
-ns1.length
-ns2.length
